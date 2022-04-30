@@ -1,8 +1,9 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItem";
 import './Expense.css'
-import Card from "./Card";
-function Expense(props) {
+import Card from "./UI/Card";
+
+const  Expense = (props) => {
     const item = props?.data;
     return (
         <Card className="expenses">
